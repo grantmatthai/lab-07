@@ -1,0 +1,25 @@
+---
+title: "lab-07-pt2"
+author: "Grant Matthai"
+date: "2024-03-06"
+output: word_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+Here is a simple chunk of code: 
+
+```{r}
+names <- c("John", "Emily", "Michael", "Sophia", "William", "Olivia", "James", "Emma", "Benjamin", "Ava")
+
+ages <- c(32, 28, 35, 30, 40, 50, 39, 33, 37, 29)
+
+careers <- c("Engineer", "Teacher", "Doctor", "Artist", "Accountant", 
+               "Professor", "Nurse", "Writer", "Lawyer", "Chef")
+
+df <- data.frame("Names" = names, "Age" = ages, "Career" = careers)
+df
+```
+
